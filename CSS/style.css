@@ -1,7 +1,21 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #ac99be00;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #AC99BE;
+    border-radius: 20px;
+    /* border: 2px solid rgb(255, 255, 255);  */
 }
 
 .navbar {
@@ -59,7 +73,7 @@ body {
     justify-content: center;
 }
 
-.left-block img{
+.imagem{
     max-width: 100%;
     height: auto;
 }
@@ -75,20 +89,26 @@ body {
     background-color: #E9DBF6;
     background-image: url(../IMG/ImagemTransparente.png);
     height: 100%;
-    padding: 40px;
+    padding: 140px;
 }
 
 .container-terceiro h3{
     color: #382F4D;
+    font-size: 35px;
 }
 
 .container-terceiro p{
     color: #382F4D;
+    font-size: 23px;
 }
 
 .container-quarto{
+    background-image: url(../IMG/BannerFundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
+    height: 530px;
     display: flex;
     justify-content: center;
 }
@@ -102,7 +122,8 @@ body {
 
 .endereco h3{
     color: #49405F;
-    font-size: 25px;
+    font-size: 35px;
+    margin-bottom: 0;
 }
 
 .endereco ul{
@@ -112,7 +133,7 @@ body {
 
 .endereco li{
     color: #49405F;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .location{
