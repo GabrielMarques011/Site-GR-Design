@@ -120,6 +120,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     width: 70%;
     padding: 40px;
+    padding-bottom: 0;
 }
 
 .pesquisa-componentes{
@@ -226,6 +227,7 @@ body::-webkit-scrollbar-thumb {
 .buttons-componentes {
     display: flex;
     padding: 30px;
+    padding-top: 0;
 }
 
 .buttons-componentes p{
