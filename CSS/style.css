@@ -39,7 +39,7 @@ body::-webkit-scrollbar-thumb {
 .navbar-links a {
     color: #a49cb4;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .navbar-links a:hover {

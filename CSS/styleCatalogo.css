@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #ac99be00;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #AC99BE;
+    border-radius: 20px;
+    /* border: 2px solid rgb(255, 255, 255);  */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 18px 25px;
+    /* box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px; */
+}
+
+.navbar-logo img {
+    height: 90px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    color: #a49cb4;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar-links a:hover {
+    color: #49405F;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.rodape{
+    background-color: #AC99BE;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.rodape-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .rodape-text img{
+
+} */
+
+.rodape-text p{
+    color: white;
+    font-size: 18px;
+}
+
+/* INICIANDO CSS CATALOGO */
+
+.container{
+    margin: 0 auto;
+    height: 100%;
+}
+
+.container-primario {
+    position: relative; /* Define o posicionamento relativo para os elementos internos */
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8679a5e0;
+}
+
+.container-primario img {
+    width: 100%;
+    display: block; /* Remove qualquer espaço extra ao redor da imagem */
+}
+
+.text-primario {
+    position: absolute; /* Define o posicionamento absoluto para os textos */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Move o texto de volta 50% do seu próprio tamanho em ambas as direções */
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.text-primario h3 {
+    margin: 0;
+    font-size: 7.5em;
+    color: #49405F;
+}
+
+.text-primario p {
+    font-size: 2.5em;
+    margin-top: 10px;
+    color: #49405F;
+}
+
+/* INICIANDO OS CARDS */
+
+.card-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 70%;
+    height: auto;
+    padding: 35px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+    margin-top: 10px;
+    color: #382f4c;
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+.card p {
+    color: #9B97A5;
+    margin-top: 0;
+    font-size: 23px;
+}
+
+.card .value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+    background-color: #382F4C;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr; /* Uma coluna em telas menores */
+    }
+}
