@@ -378,6 +378,21 @@ body::-webkit-scrollbar-thumb {
         transition: all 0.5s;
     }
 
+    .rodape-text p {
+        color: white;
+        font-size: 13px;
+    }
+
+    .insta {
+        width: 42px;
+        height: 42px;
+    }
+
+    .tel {
+        width: 36px;
+        height: 36px;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -441,6 +456,21 @@ body::-webkit-scrollbar-thumb {
         max-width: 79%;
         height: auto;
         padding: 30px;
+    }
+
+    .rodape-text p {
+        color: white;
+        font-size: 13px;
+    }
+
+    .insta {
+        width: 42px;
+        height: 42px;
+    }
+
+    .tel {
+        width: 36px;
+        height: 36px;
     }
 
 }
