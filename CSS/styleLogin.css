@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    background-color: #e8dbf3;
+}
+
+.navbar{
+    width: 100%;
+    /* background-color: #e2d7fd; */
+}
+
+.container-primario{
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.logo{
+    width: 860px;
+}
+
+.container-secundario{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.circulo-primario{
+    background-color: #e8dbf3;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo-secundario{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo2{
+    height: 165px;
+    width: 155px;
+    margin-top: 25px;
+}
+
+.container-terceiro{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+.container-terceiro h3{
+    color: #531682;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.container-terceiro p{
+    color: #531682;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.container-quarto{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    /* height: 150px; */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE7F3;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.img{
+    background-color: white;
+    border-radius: 5px;
+    height: 90px;
+    width: 90px;
+    margin-left: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 74px;
+}
+
+.text{
+    width: 450px;
+}
+
+.text a{
+    color: #49405F;
+    font-size: 22px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.rodape{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+}
