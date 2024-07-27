@@ -212,6 +212,11 @@ body::-webkit-scrollbar-thumb {
     padding: 10px;
 }
 
+.link-card{
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 768px) {
     .card-container {
         grid-template-columns: 1fr; /* Uma coluna em telas menores */
