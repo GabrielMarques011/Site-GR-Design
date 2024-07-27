@@ -18,7 +18,8 @@ body {
 }
 
 .logo{
-    width: 860px;
+    /* width: 860px; */
+    width: 100%;
 }
 
 .container-secundario{
@@ -74,12 +75,14 @@ body {
 }
 
 .container-quarto{
-    display: grid;
-    justify-content: center;
+    display: flex;
+    /* justify-content: center; */
     width: 100%;
     /* height: 150px; */
     align-items: center;
     margin-top: 20px;
+    flex-direction: column;
+    /* background-color: white; */
 }
 
 .box{
@@ -88,14 +91,16 @@ body {
     align-items: center;
     background-color: #EDE7F3;
     height: 100px;
+    width: 50%;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .img{
     background-color: white;
     border-radius: 5px;
     height: 90px;
-    width: 90px;
+    width: 110px;
     margin-left: 6px;
     display: flex;
     justify-content: center;
@@ -121,4 +126,63 @@ body {
     height: 40px;
     width: 100%;
     margin-top: 20px;
+
+}
+
+@media (max-width: 1200px){
+
+    .logo{
+        width: 81%;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .container-primario{
+        height: 366px;
+    }
+
+    .logo{
+        width: 74%;
+    }
+
+}
+
+@media (max-width: 950px){
+
+    .container-primario{
+        height: 410px;
+    }
+
+    .logo{
+        width: 95%;
+    }
+
+    .box{
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .container-primario{
+        height: 300px;
+    }
+    
+    .container-terceiro h3 {
+        font-size: 20px;
+    }
+
+    .container-terceirop{
+        font-size: 13px;
+        margin-top: -20px;
+        margin: 10px;
+    }
+
+    .box{
+        width: 70%;
+    }
+
 }

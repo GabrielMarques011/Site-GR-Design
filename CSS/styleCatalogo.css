@@ -182,14 +182,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card img {
-    width: 100%;
+    /* height: 55%;
+    width: 100%; */
+    height: 250px;
+    width: 250px;
     border-radius: 8px 8px 0 0;
 }
 
 .card h2 {
     margin-top: 10px;
     color: #382f4c;
-    font-size: 38px;
+    font-size: 25px;
     margin-bottom: 0;
 }
 
@@ -230,7 +233,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 0;
 }
 
-.buttons-componentes p{
+.pagina{
     padding: 11px;
     background-color: #382F4C;
     color: white;
@@ -239,8 +242,9 @@ body::-webkit-scrollbar-thumb {
     font-size: 22px;
     width: 18px;
     text-align: center;
+    text-decoration: none;
 }
-.buttons-componentes p:hover{
+.pagina:hover{
     background-color: #766894;
     color: white;
     transition: all 0.8s;
@@ -256,12 +260,22 @@ body::-webkit-scrollbar-thumb {
     margin-top: 10px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1400px){
     
     .text-primario h3 {
         margin: 0;
         font-size: 5.5em;
         color: #49405F;
+    }
+
+    .card-container {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 29px;
+        max-width: 79%;
+        height: auto;
+        padding: 30px;
     }
 
 }
@@ -283,7 +297,7 @@ body::-webkit-scrollbar-thumb {
     .card-container {
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 29px;
         max-width: 79%;
         height: auto;
